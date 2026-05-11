@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>What Dog Breed Are You?</title>
+        <link rel="stylesheet" href="style.css" /> 
+    </head>
+    <body>
+        <header id="start-page">
+            <h1>What Dog Breed Are You?</h1>
+            <h1>Take this fun quiz to find out!</h1>
+            <img id="startPageDogs" src="images/StartPageDogs.jpg" alt="Four small dogs sitting together" width="500px"/>
+        </header>
+        <main>
+            <div id="quiz-container">
+                <button id="start-quiz">Start Quiz</button>
+                <h2 id="question-text" class="hide"></h2>
+                <div id="answer-buttons" class="btn-grid hide" >
+                    <button class="btn answer-btn "></button>
+                    <button class="btn answer-btn "></button>
+                    <button class="btn answer-btn "></button>
+                    <button class="btn answer-btn "></button>
+                </div>
+                <div id="result-container" class="hide">
+                    <a id="result-link" href="#" target="_blank">
+                        <img id="result-image" src="" alt="" class="hide" width="300px"/>
+                    </a>
+                    <h2>Your Dog Breed is:</h2>
+                    <p id="result-text"></p>
+                    <button id="restart-btn">Retake Quiz</button>
+                </div>
+
+            </div> 
+            
+        </main>
+        <footer>
+            <p>This website was created by: Avery Mjolsness</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
